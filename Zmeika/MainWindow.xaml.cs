@@ -62,11 +62,12 @@ namespace Zmeika
                     break;
             }
             
-            //Ellipse ellipse = CreateEllipse(new Point(X, Y), Brushes.Red);
-            //CanvasMap.Children.Insert(0, ellipse);
+            //изменение для v2
+            Ellipse ellipse = CreateEllipse(new Point(X, Y), Brushes.Red);
+            CanvasMap.Children.Insert(0, ellipse);
 
-            Rectangle rectangle= CreateSquare(new Point(X, Y), Brushes.Red);
-            CanvasMap.Children.Insert(0, rectangle);
+            //Rectangle rectangle= CreateSquare(new Point(X, Y), Brushes.Red);
+            //CanvasMap.Children.Insert(0, rectangle);
         }
 
         private Ellipse CreateEllipse(Point point, Brush brush)
