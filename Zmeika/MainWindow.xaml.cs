@@ -62,7 +62,7 @@ namespace Zmeika
                     break;
             }
 
-            //Изменения для v3
+            //Изменения для master
 
             Ellipse ellipse = CreateEllipse(new Point(X, Y), Brushes.Red);
             CanvasMap.Children.Insert(0, ellipse);
